@@ -17,7 +17,18 @@
   width: 240px;
 }
 
+button.link { 
+  background:none;
+  border:none; 
+  color: #6b9a9f;
+  font-size: 24px;
+}
+
 /* Right side */
+.right-side-div {
+  padding-bottom: 55px;
+}
+
 h3 {
   color: #6b9a9f;
 }
@@ -45,8 +56,8 @@ li {
   left: 50%;
   right: 0;
   overflow: hidden;
-  padding-bottom: 2%;
-  padding-top: 10%;
+  background-color: #fffaf7;
+
 }
 
 .section-scroll {
@@ -54,4 +65,5 @@ li {
   overflow: auto;
   padding: 2% 5%;
   margin-right: -17px; /* scrollbar offset */
+  padding-top: 55px;
 }
