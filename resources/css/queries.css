@@ -4,4 +4,14 @@
   .section-scroll {
     position: inherit;
   }
+
+  .footer {
+    font-size: 80%;
+    padding-left: 22%;
+  }
+
+  .phone-icon,
+  .mail-icon {
+    font-size: 80%;
+  }
 }

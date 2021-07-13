@@ -100,13 +100,25 @@ li i {
   font-size: 180%;
   color: #6b9a9f;
   margin-bottom: 15px;
-  margin-right: 15px;
+  margin-right: 10px;
   margin-left: -25px;
 }
 
-.circle-icon,
-.location-icon {
+i {
   font-size: 100%;
+  color: #6b9a9f;
+  margin-right: 5px;
+}
+
+.circle-icon {
+  font-size: 100%;
+}
+
+.location-icon,
+.phone-icon,
+.mail-icon {
+  font-size: 100%;
+  margin-bottom: 10px;
 }
 
 .section-main,
@@ -131,6 +143,23 @@ li i {
   margin-right: -17px; /* scrollbar offset */
   padding-top: 55px;
 }
+/* EXPERIENCE */
+
+.xp-list {
+  padding-bottom: 15px;
+}
+.date,
+.company-name {
+  background-color: mintcream;
+}
+.experience {
+  text-transform: none;
+  font-family: "Kanit", sans-serif;
+}
+
+.experience li {
+  font-size: 100%;
+}
 
 /* HIDEAWAY */
 #lime,
@@ -149,10 +178,25 @@ li i {
 }
 
 /* FOOTER */
-.footer {
-  background-color: #fffaf7;
-  padding: 30px 200px;
-  font-size: 100%;
+
+.contact-info {
+  display: block;
   text-align: center;
+}
+
+.company-name a,
+.contact-info a {
   color: #4b4949;
+  text-decoration: none;
+}
+
+.company-name a:hover,
+.contact-info a:hover {
+  color: black;
+}
+
+.footer {
+  padding-left: 33%;
+  padding-bottom: 0;
+  padding-top: 20px;
 }
