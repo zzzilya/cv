@@ -9,13 +9,21 @@
 }
 
 .gallery-cell {
-  width: 90%;
-  height: 150px;
+  width: auto;
+  height: 400px;
   margin-right: 10px;
+  background: #fffaf7;
   counter-increment: gallery-cell;
 }
 
 .gallery-cell img {
   height: 100%;
-  width: auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .gallery-cell img {
+    height: 400px;
+    width: auto;
+  }
 }

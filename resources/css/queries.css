@@ -5,19 +5,6 @@
     position: inherit;
   }
 
-  .gallery-cell {
-    width: 66%;
-    height: 200px;
-    margin-right: 10px;
-    background: #fffaf7;
-    counter-increment: gallery-cell;
-  }
-
-  .gallery-cell img {
-    height: 100%;
-    width: auto;
-  }
-
   .phone-icon,
   .mail-icon {
     font-size: 80%;
