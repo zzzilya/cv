@@ -38,7 +38,7 @@ div[class*="contact-me-box"] {
 .contact-me-btn {
   color: #4b4949;
   font-size: 24px;
-  transition: all 0.5s;
+  transition: all 0.7s;
   position: relative;
 }
 .contact-me-btn::before {
@@ -50,7 +50,7 @@ div[class*="contact-me-box"] {
   height: 100%;
   z-index: 1;
   background-color: rgba(255, 255, 255, 0.201);
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 .contact-me-btn:hover::before {
   opacity: 0;
@@ -65,7 +65,7 @@ div[class*="contact-me-box"] {
   height: 100%;
   z-index: 1;
   opacity: 0;
-  transition: all 0.3s;
+  transition: all 0.5s;
   border: 1px solid rgba(255, 255, 255, 0.5);
   transform: scale(1.2, 1.2);
 }
@@ -149,9 +149,42 @@ i {
   padding-bottom: 15px;
 }
 .date,
-.company-name {
+.company-name,
+.company-btn {
   background-color: mintcream;
 }
+
+.company-btn {
+  border: none;
+  color: #4b4949;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 1rem;
+  padding: 0;
+  position: relative;
+}
+
+.company-btn:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: ".";
+  color: transparent;
+  background-color: #c9dadb;
+  height: 1px;
+  transition: all 0.5s;
+}
+
+.company-btn:hover:after {
+  width: 100%;
+}
+
 .experience {
   text-transform: none;
   font-family: "Kanit", sans-serif;
@@ -168,14 +201,6 @@ i {
 #busena {
   display: none;
 }
-.company-name a {
-  color: #4b4949;
-  text-decoration: none;
-}
-
-.company-name a:hover {
-  color: black;
-}
 
 /* FOOTER */
 
@@ -184,13 +209,11 @@ i {
   text-align: center;
 }
 
-.company-name a,
 .contact-info a {
   color: #4b4949;
   text-decoration: none;
 }
 
-.company-name a:hover,
 .contact-info a:hover {
   color: black;
 }
@@ -200,3 +223,7 @@ i {
   padding-bottom: 0;
   padding-top: 20px;
 }
+
+/* .transform {
+  transition: all 2s ease;
+} */
