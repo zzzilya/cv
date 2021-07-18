@@ -1,5 +1,8 @@
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
+  .row {
+    overflow-x: hidden;
+  }
   .section-main,
   .section-scroll {
     position: inherit;
