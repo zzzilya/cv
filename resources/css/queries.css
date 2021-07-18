@@ -8,6 +8,10 @@
     position: inherit;
   }
 
+  .right-side-div-carousel {
+    padding-bottom: 75px;
+  }
+
   .footer {
     font-size: 80%;
     padding-left: 22%;

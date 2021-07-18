@@ -79,6 +79,10 @@ div[class*="contact-me-box"] {
   padding-bottom: 55px;
 }
 
+.right-side-div-carousel {
+  padding-bottom: 100px;
+}
+
 h3 {
   color: #6b9a9f;
 }
