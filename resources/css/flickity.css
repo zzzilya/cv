@@ -29,4 +29,8 @@
   .gallery-cell {
     width: 100%;
   }
+
+  .gallery .flickity-page-dots {
+    bottom: 0;
+  }
 }
