@@ -27,4 +27,8 @@
   .mail-icon {
     font-size: 80%;
   }
+
+  .contact-info a h6 {
+    font-size: 80%;
+  }
 }
