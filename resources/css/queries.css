@@ -3,6 +3,11 @@
   .row {
     overflow-x: hidden;
   }
+
+  .section-main {
+    padding-top: 100px;
+  }
+
   .section-main,
   .section-scroll {
     position: inherit;
