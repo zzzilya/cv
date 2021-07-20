@@ -158,7 +158,8 @@ i {
   background-color: mintcream;
 }
 
-.company-btn {
+.company-btn,
+.pdf-link {
   border: none;
   color: #4b4949;
   text-transform: uppercase;
@@ -171,7 +172,12 @@ i {
   position: relative;
 }
 
-.company-btn:after {
+.pdf-link {
+  text-transform: none;
+}
+
+.company-btn:after,
+.pdf-link::after {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -185,8 +191,13 @@ i {
   transition: all 0.5s;
 }
 
-.company-btn:hover:after {
+.company-btn:hover:after,
+.pdf-link:hover::after {
   width: 100%;
+}
+
+.pdf-link:hover {
+  color: #4b4949;
 }
 
 .experience {
@@ -214,7 +225,8 @@ i {
   text-align: center;
 }
 
-.contact-info a {
+.contact-info a,
+.pdf-link {
   color: #4b4949;
   text-decoration: none;
 }
