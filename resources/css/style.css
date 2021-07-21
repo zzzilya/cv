@@ -5,6 +5,7 @@
   text-rendering: optimizeLegibility;
   text-transform: uppercase;
 }
+
 /* Left side */
 .section-main {
   background-color: #bdddcb;
@@ -150,10 +151,12 @@ i {
 /* EXPERIENCE */
 
 .xp-list {
-  padding-bottom: 15px;
+  background-color: mintcream;
+  border-radius: 25px;
+  margin-bottom: 10px;
+  padding: 10px 0;
 }
-.date,
-.company-name,
+
 .company-btn {
   background-color: mintcream;
 }
@@ -164,7 +167,7 @@ i {
   color: #4b4949;
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 0.5rem;
+  /* margin-bottom: 0.5rem; */
   font-weight: 500;
   line-height: 1.2;
   font-size: 1rem;
@@ -201,7 +204,6 @@ i {
 }
 
 .experience {
-  padding-top: 10px;
   text-transform: none;
   font-family: "Kanit", sans-serif;
 }
