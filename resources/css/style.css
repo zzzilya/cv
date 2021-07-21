@@ -96,23 +96,27 @@ li {
 p {
   text-transform: none;
 }
+
 li {
   list-style: none;
   font-size: 80%;
+  vertical-align: middle;
+  margin-bottom: 15px;
 }
+
 /* ICONS */
 li i {
   font-size: 180%;
   color: #6b9a9f;
-  margin-bottom: 15px;
-  margin-right: 10px;
-  margin-left: -25px;
+  /* margin-bottom: 15px; */
+  /* margin-right: 10px; */
+  /* margin-left: -25px; */
 }
 
 i {
   font-size: 100%;
   color: #6b9a9f;
-  margin-right: 5px;
+  /* margin-right: 5px; */
 }
 
 .circle-icon {
