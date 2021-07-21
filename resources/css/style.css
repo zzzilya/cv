@@ -100,16 +100,10 @@ p {
 li {
   list-style: none;
   font-size: 80%;
-  vertical-align: middle;
   margin-bottom: 15px;
 }
 
 /* ICONS */
-li i {
-  font-size: 180%;
-  color: #6b9a9f;
-}
-
 i {
   font-size: 100%;
   color: #6b9a9f;
@@ -118,22 +112,25 @@ i {
 
 .ul-icons {
   padding-left: 0;
-}
-
-.ul-icons .circle-icon {
   font-size: 100%;
 }
 
 .ul-icons li i {
   margin-right: 10px;
+  font-size: 180%;
+  color: #6b9a9f;
 }
 
-.location-icon,
-.phone-icon,
-.mail-icon {
+.ul-icons li .small-icon {
+  font-size: 16px;
+  vertical-align: initial;
+}
+
+.footer-icon {
   font-size: 100%;
   margin-bottom: 10px;
 }
+
 /* eof icons */
 
 .section-main,
@@ -232,7 +229,6 @@ i {
 /* FOOTER */
 
 .contact-info {
-  display: block;
   text-align: center;
 }
 
